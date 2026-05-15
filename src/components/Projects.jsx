@@ -75,8 +75,8 @@ export default function Projects() {
               <p className="text-gray-400 text-base leading-relaxed font-light">
                 Sou estudante de <span className="text-white font-medium">Análise e Desenvolvimento de Sistemas</span> na{" "}
                 <span className="text-white font-medium">Uninassau</span>, no 4º período, com formatura prevista para{" "}
-                <span className="text-white font-medium">2026</span>. Apaixonado por front-end, estou focado em construir
-                interfaces modernas e responsivas com React e Tailwind CSS, buscando minha primeira oportunidade na área.
+                <span className="text-white font-medium">2026</span>. Tenho facilidade de aprendizado, sou organizado e estou sempre buscando evoluir na prática.{" "}
+                Cada projeto que desenvolvi me ensinou algo novo — e é exatamente esse tipo de crescimento que busco numa oportunidade de estágio.
               </p>
             </div>
           </FadeInSection>
