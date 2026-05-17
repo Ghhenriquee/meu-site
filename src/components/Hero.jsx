@@ -101,7 +101,7 @@ export default function Hero() {
         {/* Stats */}
         <motion.div {...fadeUp(0.55)} className="mt-20 grid grid-cols-3 border border-white/[0.07] rounded-2xl overflow-hidden">
           {[
-            { num: "2+", label: "Projetos" },
+            { num: "3+", label: "Projetos" },
             { num: "1 ano", label: "Estudando" },
             { num: "React", label: "Stack principal" },
           ].map((s, i) => (
