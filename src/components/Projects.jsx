@@ -42,6 +42,16 @@ export default function Projects() {
       github: "https://github.com/Ghhenriquee",
       demo: "#",
     },
+    {
+      title: "Netflix Clone",
+      description:
+        "Clone da interface da Netflix com consumo de API de filmes e séries, hero dinâmico, categorias e layout responsivo fiel ao original.",
+      tags: ["React", "API", "Tailwind"],
+      image:
+        "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=1200&auto=format&fit=crop",
+      github: "https://github.com/Ghhenriquee/netflix-clone",
+      demo: "https://netflix-clone-omega-wine.vercel.app",
+    },
   ];
  
   const skills = [
