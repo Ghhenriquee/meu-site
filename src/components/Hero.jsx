@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
- 
+
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] },
 });
- 
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden text-white bg-[#08090A]">
- 
+
       {/* Subtle glow */}
       <div className="absolute top-[-150px] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-green-500/10 blur-[120px] rounded-full pointer-events-none" />
- 
+
       {/* Navbar */}
       <motion.nav
         initial={{ opacity: 0, y: -16 }}
@@ -51,10 +51,10 @@ export default function Hero() {
           </a>
         </div>
       </motion.nav>
- 
+
       {/* Hero Content */}
       <div className="relative z-10 max-w-5xl w-full pt-24">
- 
+
         {/* Badge */}
         <motion.div
           {...fadeUp(0.1)}
@@ -63,7 +63,7 @@ export default function Hero() {
           <span className="w-2 h-2 rounded-full bg-[#7BC142] animate-pulse" />
           <span className="text-[#7BC142] text-xs font-semibold uppercase tracking-widest">Disponível para estágio</span>
         </motion.div>
- 
+
         {/* Heading */}
         <motion.h2
           {...fadeUp(0.2)}
@@ -73,13 +73,13 @@ export default function Hero() {
           Front-End<br />
           <span className="text-[#3a3d38]">Developer</span>
         </motion.h2>
- 
+
         {/* Description */}
         <motion.p {...fadeUp(0.3)} className="text-gray-500 text-lg font-light max-w-lg mb-12 leading-relaxed">
           Desenvolvedor focado em interfaces modernas e responsivas com
           React, Tailwind CSS e JavaScript. Buscando meu primeiro estágio na área.
         </motion.p>
- 
+
         {/* Actions */}
         <motion.div {...fadeUp(0.4)} className="flex gap-4 flex-wrap">
           <a
@@ -97,7 +97,7 @@ export default function Hero() {
             GitHub
           </a>
         </motion.div>
- 
+
         {/* Stats */}
         <motion.div {...fadeUp(0.55)} className="mt-20 grid grid-cols-3 border border-white/[0.07] rounded-2xl overflow-hidden">
           {[
@@ -123,4 +123,3 @@ export default function Hero() {
     </section>
   );
 }
- 

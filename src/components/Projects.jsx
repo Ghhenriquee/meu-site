@@ -81,7 +81,18 @@ export default function Projects() {
  
         <div className="grid md:grid-cols-2 gap-6">
           <FadeInSection delay={0.1}>
-            <div className="bg-[#0F1114] border border-white/[0.07] rounded-2xl p-8 flex flex-col justify-center h-full">
+            <div className="bg-[#0F1114] border border-white/[0.07] rounded-2xl p-8 flex flex-col justify-center h-full gap-6">
+              <div className="flex items-center gap-5">
+                <img
+                  src="/foto.jpg"
+                  alt="Henrique"
+                  className="w-20 h-20 rounded-2xl object-cover object-top border-2 border-[#7BC142]/30 shrink-0"
+                />
+                <div>
+                  <p className="text-white font-bold text-lg" style={{ fontFamily: "'Syne', sans-serif" }}>Henrique Ferreira</p>
+                  <p className="text-[#7BC142] text-xs font-semibold uppercase tracking-widest mt-1">Front-End Developer</p>
+                </div>
+              </div>
               <p className="text-gray-400 text-base leading-relaxed font-light">
                 Sou estudante de <span className="text-white font-medium">Análise e Desenvolvimento de Sistemas</span> na{" "}
                 <span className="text-white font-medium">Uninassau</span>, no 4º período, com formatura prevista para{" "}
@@ -220,7 +231,7 @@ export default function Projects() {
                         rel="noreferrer"
                         className="text-gray-500 text-sm hover:text-white transition flex items-center gap-1.5"
                       >
-                        ↗ Demo
+                        ↗ Ver ao vivo
                       </a>
                     )}
                   </div>
@@ -254,7 +265,7 @@ export default function Projects() {
                 givanildoh27@gmail.com
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/henrique-ferreira-690a13192"
+                href="https://www.linkedin.com/in/henriqueferreira-dev"
                 target="_blank"
                 rel="noreferrer"
                 whileHover={{ scale: 1.03 }}
